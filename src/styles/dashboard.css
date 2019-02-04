@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+  }
 .home-section-container{
     width:100%;
     height: 450px;
@@ -11,7 +16,7 @@
     width:50%;
     padding-top:50px;
     height: 400px;
-    border:1px solid red;
+ 
     background:rgba(138, 139, 138, 0.1);
     color:white;
 }
@@ -25,4 +30,34 @@
 }
 .search-box{
     width:50%;
+}
+.house-section{
+    background: black;
+    width:100%;
+    height: 200px;
+    color:white;
+}
+.house-section .row{
+    width:100%;
+    border:1px solid red;
+    height: 95%;
+    overflow: auto;
+    white-space: nowrap;
+}
+.house-section .row .house-box{
+    display:inline-block;
+    width:200px;
+    border:1px solid white;
+}
+.house-box{
+    margin: 5px 5px;
+    min-height:95%;
+    text-align: center;
+}
+.house-box h4{
+    color:red;
+}
+.house1{
+    background:url('https://img.clasf.co.za/2015/01/11/Property-for-sale-in-Centurion-Celtisda-House-For-Sale-20150111185412.jpg') no-repeat center center;
+    background-size: cover;
 }
