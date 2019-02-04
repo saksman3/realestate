@@ -12,8 +12,34 @@ const dashboard = () => {
                     <p>"Our All-In Monthly Pricing search includes estimated property taxes, HOA fees, PMI, utilities, insurance and closing costs to help take the surprises out of buying a home."</p>
                 </div>
             </div>
-            <div className="houses">
-                <div className="house-box"></div>
+            <div className="house-section">
+                <div className="row">
+                <div className="house-box house1">
+                <h4>Test</h4>
+                
+              </div>
+              <div className="house-box house1">
+                <h4>Test</h4>
+                
+              </div>
+              <div className="house-box house1">
+                <h4>Test</h4>
+                
+              </div>
+              <div className="house-box house1">
+                <h4>Test</h4>
+                
+              </div>
+              <div className="house-box">
+                <h4>Test</h4>
+                
+              </div>
+              <div className="house-box">
+                <h4>Test</h4>
+                
+              </div>
+              
+                </div>
             </div>
         </React.Fragment>
     );
